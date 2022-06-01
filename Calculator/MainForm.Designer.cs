@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calculator));
             this.TextBoxOperation = new System.Windows.Forms.TextBox();
             this.ButtonNumber1 = new System.Windows.Forms.Button();
             this.ButtonNumber2 = new System.Windows.Forms.Button();
@@ -66,6 +65,7 @@
             // ButtonNumber1
             // 
             this.ButtonNumber1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonNumber1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonNumber1.FlatAppearance.BorderSize = 0;
             this.ButtonNumber1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonNumber1.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -80,6 +80,7 @@
             // ButtonNumber2
             // 
             this.ButtonNumber2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonNumber2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonNumber2.FlatAppearance.BorderSize = 0;
             this.ButtonNumber2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonNumber2.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -94,6 +95,7 @@
             // ButtonNumber3
             // 
             this.ButtonNumber3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonNumber3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonNumber3.FlatAppearance.BorderSize = 0;
             this.ButtonNumber3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonNumber3.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -108,6 +110,7 @@
             // ButtonPlus
             // 
             this.ButtonPlus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(6)))));
+            this.ButtonPlus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonPlus.FlatAppearance.BorderSize = 0;
             this.ButtonPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonPlus.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -122,6 +125,7 @@
             // ButtonSub
             // 
             this.ButtonSub.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(6)))));
+            this.ButtonSub.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonSub.FlatAppearance.BorderSize = 0;
             this.ButtonSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonSub.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -136,6 +140,7 @@
             // ButtonNumber6
             // 
             this.ButtonNumber6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonNumber6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonNumber6.FlatAppearance.BorderSize = 0;
             this.ButtonNumber6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonNumber6.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -150,6 +155,7 @@
             // ButtonNumber5
             // 
             this.ButtonNumber5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonNumber5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonNumber5.FlatAppearance.BorderSize = 0;
             this.ButtonNumber5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonNumber5.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -164,6 +170,7 @@
             // ButtonNumber4
             // 
             this.ButtonNumber4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonNumber4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonNumber4.FlatAppearance.BorderSize = 0;
             this.ButtonNumber4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonNumber4.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -178,6 +185,7 @@
             // ButtonMultiplication
             // 
             this.ButtonMultiplication.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(6)))));
+            this.ButtonMultiplication.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonMultiplication.FlatAppearance.BorderSize = 0;
             this.ButtonMultiplication.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonMultiplication.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -192,6 +200,7 @@
             // ButtonNumber9
             // 
             this.ButtonNumber9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonNumber9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonNumber9.FlatAppearance.BorderSize = 0;
             this.ButtonNumber9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonNumber9.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -206,6 +215,7 @@
             // ButtonNumber8
             // 
             this.ButtonNumber8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonNumber8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonNumber8.FlatAppearance.BorderSize = 0;
             this.ButtonNumber8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonNumber8.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -220,6 +230,7 @@
             // ButtonNumber7
             // 
             this.ButtonNumber7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonNumber7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonNumber7.FlatAppearance.BorderSize = 0;
             this.ButtonNumber7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonNumber7.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -234,6 +245,7 @@
             // ButtonDivision
             // 
             this.ButtonDivision.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(6)))));
+            this.ButtonDivision.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonDivision.FlatAppearance.BorderSize = 0;
             this.ButtonDivision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonDivision.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -248,6 +260,7 @@
             // ButtonEqual
             // 
             this.ButtonEqual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(6)))));
+            this.ButtonEqual.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonEqual.FlatAppearance.BorderSize = 0;
             this.ButtonEqual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonEqual.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -262,6 +275,7 @@
             // ButtonNumber0
             // 
             this.ButtonNumber0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonNumber0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonNumber0.FlatAppearance.BorderSize = 0;
             this.ButtonNumber0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonNumber0.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -276,6 +290,7 @@
             // ButtonDelete
             // 
             this.ButtonDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(165)))), ((int)(((byte)(165)))));
+            this.ButtonDelete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonDelete.FlatAppearance.BorderSize = 0;
             this.ButtonDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonDelete.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -291,6 +306,7 @@
             // ButtonClear
             // 
             this.ButtonClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(165)))), ((int)(((byte)(165)))));
+            this.ButtonClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonClear.FlatAppearance.BorderSize = 0;
             this.ButtonClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonClear.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -306,6 +322,7 @@
             // ButtonDot
             // 
             this.ButtonDot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ButtonDot.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonDot.FlatAppearance.BorderSize = 0;
             this.ButtonDot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonDot.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -345,11 +362,11 @@
             this.Controls.Add(this.TextBoxOperation);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Calculator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
+            this.Load += new System.EventHandler(this.Calculator_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

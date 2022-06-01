@@ -14,6 +14,18 @@ namespace Calculator
             InitializeComponent();
         }
 
+        private void Calculator_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                this.Icon = System.Drawing.Icon.ExtractAssociatedIcon(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+            }
+        }
+
         private void Number_Click(object sender, EventArgs e)
         {
             Button button = sender as Button;
@@ -64,11 +76,10 @@ namespace Calculator
             string NewText = "";
 
             for (int i = 0; i < TextBoxOperation.Text.Length - 1; i++)
-            {
                 NewText += TextBoxOperation.Text[i];
-            }
 
             TextBoxOperation.Text = NewText;
         }
+
     }
 }
